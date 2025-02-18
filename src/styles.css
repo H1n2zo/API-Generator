@@ -51,6 +51,49 @@ body {
     justify-content: space-between;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 250px;
-    margin-right: 250px;
   }
+
+  @media (min-width: 320px) {
+    .combined-box {
+      max-width: 90%;
+    }
+  
+    img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  
+    .sub-header {
+      font-size: 18px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .combined-box {
+    max-width: 600px;
+  }
+
+  img {
+    max-width: 550px;
+    max-height: 550px;
+  }
+
+  .sub-header {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .combined-box {
+    max-width: 700px;
+  }
+
+  img {
+    max-width: 650px;
+    max-height: 650px;
+  }
+
+  .sub-header {
+    font-size: 28px;
+  }
+}
